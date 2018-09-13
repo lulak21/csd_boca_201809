@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Schema xmlns="http://tempuri.org/Schema.xsd">
+
+  <Sale>
+    <saleId>1</saleId>
+    <saleDate>1969-01-02T13:03:03.000</saleDate>
+    <value>300</value>
+    <salesmanId>7</salesmanId>
+  </Sale>
+  
+  <Sale>
+    <saleId>2</saleId>
+    <saleDate>2018-01-02T13:03:03.000</saleDate>
+    <value>100</value>
+    <salesmanId>2</salesmanId>
+  </Sale>
+
+  <Sale>
+    <saleId>3</saleId>
+    <saleDate>1963-01-02T13:03:03.000</saleDate>
+    <value>100</value>
+    <salesmanId>9</salesmanId>
+  </Sale>
+
+  <Sale>
+    <saleId>4</saleId>
+    <saleDate>1963-01-02T13:03:03.000</saleDate>
+    <value>200</value>
+    <salesmanId>9</salesmanId>
+  </Sale>
+
+  <Sale>
+    <saleId>5</saleId>
+    <saleDate>1963-01-02T13:03:03.000</saleDate>
+    <value>300</value>
+    <salesmanId>8</salesmanId>
+  </Sale>
+
+   <Sale>
+    <saleId>6</saleId>
+    <saleDate>1964-01-02T13:03:03.000</saleDate>
+    <value>400</value>
+    <salesmanId>9</salesmanId>
+  </Sale>
+
+</Schema>

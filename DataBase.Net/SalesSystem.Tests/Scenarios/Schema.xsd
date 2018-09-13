@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Schema" targetNamespace="http://tempuri.org/Schema.xsd" xmlns:mstns="http://tempuri.org/Schema.xsd" xmlns="http://tempuri.org/Schema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TesteIntegradoBancoOpenSourceConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TesteIntegradoBancoOpenSourceConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TestProject1.Properties.Settings.GlobalReference.Default.TesteIntegradoBancoOpenSourceConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Schema" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Schema" msprop:Generator_UserDSName="Schema">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Sale" msprop:Generator_TableClassName="SaleDataTable" msprop:Generator_TableVarName="tableSale" msprop:Generator_TablePropName="Sale" msprop:Generator_RowDeletingName="SaleRowDeleting" msprop:Generator_RowChangingName="SaleRowChanging" msprop:Generator_RowEvHandlerName="SaleRowChangeEventHandler" msprop:Generator_RowDeletedName="SaleRowDeleted" msprop:Generator_UserTableName="Sale" msprop:Generator_RowChangedName="SaleRowChanged" msprop:Generator_RowEvArgName="SaleRowChangeEvent" msprop:Generator_RowClassName="SaleRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="saleId" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnsaleId" msprop:Generator_ColumnPropNameInRow="saleId" msprop:Generator_ColumnPropNameInTable="saleIdColumn" msprop:Generator_UserColumnName="saleId" type="xs:int" />
+              <xs:element name="saleDate" msprop:Generator_ColumnVarNameInTable="columnsaleDate" msprop:Generator_ColumnPropNameInRow="saleDate" msprop:Generator_ColumnPropNameInTable="saleDateColumn" msprop:Generator_UserColumnName="saleDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="value" msprop:Generator_ColumnVarNameInTable="columnvalue" msprop:Generator_ColumnPropNameInRow="value" msprop:Generator_ColumnPropNameInTable="valueColumn" msprop:Generator_UserColumnName="value" type="xs:double" minOccurs="0" />
+              <xs:element name="salesmanId" msprop:Generator_ColumnVarNameInTable="columnsalesmanId" msprop:Generator_ColumnPropNameInRow="salesmanId" msprop:Generator_ColumnPropNameInTable="salesmanIdColumn" msprop:Generator_UserColumnName="salesmanId" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Sale" />
+      <xs:field xpath="mstns:saleId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

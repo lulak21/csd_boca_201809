@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dataset>
+	
+	<vendedor id="1" nome="Jon Snow" />
+	<vendedor id="3" nome="Maria Joaquina" />
+	<vendedor id="4" nome="Maria Antonieta" />
+	<vendedor id="5" nome="João das Neves" />
+	
+	<venda id="1" valor="55.59" dataVenda="2016-01-01" vendedor_id="4" />
+	<venda id="2" valor="42" dataVenda="2016-02-01" vendedor_id="1" />
+	<venda id="3" valor="100" dataVenda="2016-04-03" vendedor_id="1" />	
+	<venda id="4" valor="10000" dataVenda="2017-04-05" vendedor_id="5" />
+	<venda id="5" valor="50" dataVenda="2016-04-05" vendedor_id="5" />	
+	
+</dataset>
